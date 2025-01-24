@@ -6,7 +6,7 @@ class TestApp(unittest.TestCase):
         tester = app.test_client()
         response = tester.get('/')
         self.assertEqual(response.status_code, 200)
-        self.assertEqual(response.data, b"Python tayari theva aloch")
+        self.assertEqual(response.data, b"Python tayrai theva aloch")
 
 
 if __name__ == "__main__":
